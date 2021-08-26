@@ -6,7 +6,8 @@ The app has been tested by SonarQube, and all the issues are reviewed/fixed.
 All the controller endpoints, as well as service methods with custom logic, have unit tests.  
 
 The app is deployed to Heroku, and linked to this GitHub repository. Whenever a new commit is pushed, the Heroku app will be rebuilt with the latest commits. 
-The following link leads to the Heroku app: https://stormy-tor-83845.herokuapp.com/ 
+The following link leads to the Heroku app:  
+https://stormy-tor-83845.herokuapp.com/ 
 
 You can test the app using endpoints provided at the end of this file, or use the Angular frontend app deployed at Heroku:  
 http://reinvent-synonym.herokuapp.com/ 
