@@ -30,17 +30,17 @@ Introducing Lombok to a project may seem like a hassle but it comes with several
 _______________________________________________________
 ##### Endpoints:
 
-###### -Retrieving synonyms by wordString(path variable) -> returns a list of synonyms:
+###### -Retrieving synonyms by wordString(path variable) -> (returns a list of synonyms):
 `Method type: GET`
 
 `Path: api/words/{wordString}`  
 
-###### -Check for existings synonyms with the same description:
+###### -Check for existings synonyms with the same description (returns a list of words with common description):
 `Method type: GET`
 
 `Path: api/words/check/{description}`
 
-###### -Add synonyms (stores new synonyms into the database):
+###### -Add synonyms (stores new synonyms into the database, returns stored synonyms):
 `Method type: POST`
 
 `Path: api/words/add`
