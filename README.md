@@ -27,9 +27,9 @@ Introducing Lombok to a project may seem like a hassle but it comes with several
 
 
 ##### 3. Run the app with your IDE
-##### 4. Endpoints
 _______________________________________________________
-Endpoints description:
+##### 4. Endpoints:
+
 ###### -Retrieving synonyms by wordString(path variable) -> returns a list of synonyms:
 `Method type: GET`
 
